@@ -1,0 +1,41 @@
+<DOCTYPE HTML>
+    <html>
+        <header>
+			<script
+                src="https://code.jquery.com/jquery-3.6.0.js"
+                integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+                crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.26.1/axios.min.js"></script>
+            <link rel="stylesheet" href="signup.css">
+        </header>
+    
+        <body>
+            <div id="formBox">
+                <h1 id="formHeader">Sign Up</h1>
+                <form id="signUpForm">
+                    <p>
+                        <label for="username" class="formLabel">Username:</label>
+                        <input type="text" id="username" class="formField" name="username" placeholder="">
+                    </p>
+                    <p>
+                        <label for="password" class="formLabel">Password:</label>
+                        <input type="password" id="password" class="formField" name="password" placeholder="">
+                    </p>
+                    <p>
+                        <label for="repeatpass" class="formLabel">Repeat Password:</label>
+                        <input type="password" id="repeatpass" class="formField" name="repeatpass" placeholder="">
+                    </p>
+					
+					<div id="formErrors" style="display:none"></div>
+					
+                    <p>
+                        <input type="submit" value="Create account" id="signUpButton" name="signUpButton">
+                    </p>
+                    <p id="loginText">
+                        Already a user? <a href="login.html">Log in</a>
+                    </p>
+                </form>
+            </div>
+        </body>
+		<script src="signup.js"></script>
+    </html>

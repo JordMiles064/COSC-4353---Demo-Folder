@@ -1,0 +1,37 @@
+<DOCTYPE HTML>
+    <html>
+        <header>
+            <link rel="stylesheet" href="login.css">
+			<script
+                src="https://code.jquery.com/jquery-3.6.0.js"
+                integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+                crossorigin="anonymous"></script>
+			<script src="script.js" defer></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.26.1/axios.min.js"></script>
+        </header>
+    
+        <body>
+            <div id="formBox">
+                <h1 id="formHeader">Login</h1>
+                <form id="loginForm" action="mainmenu.html">
+                    <p>
+                        <label id="formLabelUsername" class="formLabel" for="formFieldUsername">Username:</label>
+                        <input type="text" id="formFieldUsername" class="formField" name="username" placeholder="" >
+                    </p>
+                    <p>
+                        <label id="formLabelPass" class="formLabel" for="formFieldPass">Password:</label>
+                        <input type="password" id="formFieldPass" class="formField" name="password" placeholder="" >
+                    </p>
+					
+					<div id="formErrors" ></div>
+					
+					<div id="signUpSuccess" ></div>
+					
+					<p>
+                        <input type="submit" value="Login" id="loginButton" class="formLogin" name="loginButton">
+                        <label id="signupText" class="formLogin">Don't have an account? <a href="signup.html">Sign up</a></label>
+                    </p>
+                </form>
+            <div>
+        </body>
+    </html>

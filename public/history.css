@@ -1,0 +1,38 @@
+table, th, td{
+    border: 1px solid black;
+    text-align: center;    
+}
+
+table{
+    width: 94%;
+    border-collapse: collapse;
+}
+
+body {
+	background-color: LightSteelBlue;
+	font-family: Arial;
+  }
+
+#table
+{
+    background-color: white;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+#formBox {
+	position: relative; 
+	background-color: white;
+	width: 90%;
+	height: 90%;
+	margin: auto;
+	margin-top: 2%;
+	border: 3px solid green;
+	padding: 10px;
+  }
+  
+  #formHeader {
+	font-size: 35px;
+	margin-left: 40%;
+    margin-right: 25%;
+  }

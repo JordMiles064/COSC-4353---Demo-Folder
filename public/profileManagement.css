@@ -1,0 +1,49 @@
+body {
+	background-color: LightSteelBlue;
+	font-family: Arial;
+  }
+  
+  #formBox {
+	position: relative;
+	background-color: white;
+	width: 50%;
+	height: 50%;
+	margin: auto;
+	margin-top: 10%;
+	border: 3px solid green;
+	padding: 10px;
+  }
+  
+  #formHeader {
+	font-size: 40px;
+    text-align: center;
+  }
+  
+  #profileManagementForm {
+	width: 50%;
+	height: 20%;
+	margin: 0 auto;
+	margin-top: 1%;
+  }
+  
+  #submitButton {
+	font-size: 15;
+	color: white;
+	text-align: center;
+	width: 80px;
+	height: 30px;  
+	padding: 2px 2px;
+	border: 3px solid #225478;
+	margin-right: 12px;  
+	background-color: #4489cf;
+	display: inline-block;
+  }
+  
+  .formLabel {
+	font-size: 20;
+  }
+  
+  .formField {
+	width: 100%;
+	font-size: 15;
+  }

@@ -1,0 +1,64 @@
+body {
+	background-color: LightSteelBlue;
+	font-family: Arial;
+}
+
+#formBox {
+	position: relative;	
+	background-color: white;
+	width: 35%;
+	height: 50%;	
+	margin: auto;
+	margin-top: 10%;
+	border: 3px solid green;
+	padding: 10px;
+}
+
+#formHeader {
+	font-size: 35px;
+	margin-left: 5%;
+	text-align: center;
+}
+
+#signUpForm {
+	width: 70%;
+	height: 20%;
+	margin: 0 auto;
+	margin-top: 10%;
+}
+
+#formErrors {
+	color: red;
+	font-weight: bold;
+}
+
+#loginText {
+	font-size: 15;
+	position: absolute;
+	bottom: 42px;
+	left: 270px;
+}
+
+#signUpButton {
+	font-size: 15;
+	color: white;
+	text-align: center;	
+	width: 130px;
+	height: 30px;
+	padding: 2px 2px;
+	border: 3px solid #225478;
+	background-color: #4489cf;
+	display: inline-block;
+	
+	position: absolute;
+	bottom: 50px;
+}
+
+.formLabel {
+	font-size: 20;
+}
+
+.formField {
+	border: 1px solid #aaa;
+	font-size: 15;
+}

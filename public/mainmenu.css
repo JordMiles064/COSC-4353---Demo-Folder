@@ -1,0 +1,75 @@
+body {
+	background-color: LightSteelBlue;
+	font-family: Arial;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 8px 24px;
+}
+
+.component
+{
+    align-items: left;
+    margin: 10px 24px;
+}
+
+#CompontentOne
+{
+    position: relative;
+    background-color: #4489cf;
+    padding: 50px 0;
+    text-align: center;
+    border: 5px solid #225478;
+    margin-left: 38%;
+    margin-right: 38%;
+}
+
+#CompontentTwo
+{   
+    position: relative;
+    background-color: #4489cf;
+    padding: 50px 0;
+    text-align: center;
+    border: 5px solid #225478;
+    margin-left: 38%;
+    margin-right: 38%;
+}
+
+#CompontentThree
+{
+    position: relative;
+    background-color: #4489cf;
+    padding: 50px 0;
+    text-align: center;
+    border: 5px solid #225478;
+    margin-left: 38%;
+    margin-right: 38%;
+}	
+
+#logout
+{
+    margin-left: 4px;
+}
+
+#Maintitle
+{
+    font-size: 50px;
+    text-align: center;
+    color:black;
+}
+
+#overallBox
+{
+    position: relative;
+    background-color: white;
+    padding: 2px 0;
+    text-align: center;
+    border: 3px solid green;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
